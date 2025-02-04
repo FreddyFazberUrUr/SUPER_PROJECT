@@ -1,7 +1,7 @@
 import telebot
 import logging
 from telebot.types import Message
-from project.CONSTS import (
+from CONSTS import (
     MAX_TOKENS_PER_DAY,
     API_TOKEN,
     LOGS,
@@ -13,9 +13,9 @@ from threading import Thread
 from datetime import datetime
 from settings_manager import load_settings, dump_settings
 from weather import get_weather
-from project.chat_manager import create_database, add_message, get_history, count_tokens, reset_tokens
-from project.ai import ask_gpt
-from project.keyboard import create_keyboard
+from chat_manager import create_database, add_message, get_history, count_tokens, reset_tokens
+from ai import ask_gpt
+from keyboard import create_keyboard
 
 
 bot = telebot.TeleBot(API_TOKEN)

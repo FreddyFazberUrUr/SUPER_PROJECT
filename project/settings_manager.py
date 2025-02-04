@@ -1,5 +1,5 @@
 import json
-from project.CONSTS import SETTINGS_FILE, DEFAULT_MODEL
+from CONSTS import SETTINGS_FILE, DEFAULT_MODEL
 
 struct = {
     'user_id': {

@@ -2,7 +2,6 @@ import json
 from CONSTS import BASE_URL, API_KEY, MAX_TOKENS_IN_MESSAGE, SYSTEM_PROMPTS
 import requests
 import logging
-from CONSTS import MODELS
 
 
 def ask_gpt(messages, model, system_prompt):

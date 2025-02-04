@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import os
 
-load_dotenv('../creds/.env')
+load_dotenv('creds/.env')
 
 # НЕЙРОСЕТЬ
 DEFAULT_SYSTEM_PROMPT = '''

@@ -1,5 +1,5 @@
 import requests
-from project.CONSTS import API_WEATHER_KEY, WEATHER_URL
+from CONSTS import API_WEATHER_KEY, WEATHER_URL
 
 
 def get_weather(city):
